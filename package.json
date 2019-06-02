@@ -16,7 +16,7 @@
     "cli"
   ],
   "author": "FAKER-A",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.20.0",
     "download-git-repo": "^2.0.0",
