@@ -16,6 +16,13 @@
     "cli"
   ],
   "author": "FAKER-A",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FAKER-A/vue-component-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FAKER-A/vue-component-cli/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "commander": "^2.20.0",
