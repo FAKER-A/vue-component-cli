@@ -78,6 +78,7 @@ function changeTemplate(componentName) {
       }
       let packageData = JSON.parse(data)
       packageData.name = componentName
+      packageData.main = `dist/${componentName}.js`
       fs.writeFile(path.resolve(process.cwd(), componentName, 'package.json'), JSON.stringify(packageData, null, 2), 'utf8', (err, data) => {
         if(err) {
           return reject(err)
