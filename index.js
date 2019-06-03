@@ -6,13 +6,14 @@ const chalk = require('chalk')
 const path = require('path')
 const fs = require('fs')
 const validateComponentName = require('validate-npm-package-name')
+const packageData = require('./package.json')
 
 const gitRepo = {
   base: 'direct:git@github.com:FAKER-A/webpack-starter-vue-lib.git'
 } 
 
 program
-  .version('0.0.1')
+  .version(packageData.version)
   .option('-i, init <componentName>', 'input component name')
 program.parse(process.argv)
 
