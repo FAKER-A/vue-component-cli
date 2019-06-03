@@ -3,7 +3,7 @@
 
 ## 安装
 ```javascript
-  npm install vue-component-cli
+  npm install vue-component-cli2
 ```
 ## 使用
 ```javascript
