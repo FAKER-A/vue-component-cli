@@ -7,7 +7,7 @@
 ```
 ## 使用
 ```javascript
-  vueComponent init <componentName>
+  vueComponent init <componentName>  
   or
   vc init <componentName>
 ```
