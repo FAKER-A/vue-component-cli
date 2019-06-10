@@ -43,6 +43,3 @@
   - [x] scss
   - [x] jsx
   - [x] jest
-  - [] eslint
-  - ......
-
